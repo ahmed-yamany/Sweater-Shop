@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73EAFD6529423D5A003D162B /* Sweater_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD6429423D5A003D162B /* Sweater_ShopApp.swift */; };
+		73EAFD6729423D5A003D162B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD6629423D5A003D162B /* ContentView.swift */; };
+		73EAFD6929423D5C003D162B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EAFD6829423D5C003D162B /* Assets.xcassets */; };
+		73EAFD6C29423D5C003D162B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EAFD6B29423D5C003D162B /* Preview Assets.xcassets */; };
+		73EAFD7629423D5C003D162B /* Sweater_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD7529423D5C003D162B /* Sweater_ShopTests.swift */; };
+		73EAFD8029423D5C003D162B /* Sweater_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD7F29423D5C003D162B /* Sweater_ShopUITests.swift */; };
+		73EAFD8229423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD8129423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73EAFD7229423D5C003D162B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73EAFD5929423D5A003D162B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EAFD6029423D5A003D162B;
+			remoteInfo = "Sweater-Shop";
+		};
+		73EAFD7C29423D5C003D162B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73EAFD5929423D5A003D162B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EAFD6029423D5A003D162B;
+			remoteInfo = "Sweater-Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73EAFD6129423D5A003D162B /* Sweater-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweater-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EAFD6429423D5A003D162B /* Sweater_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopApp.swift; sourceTree = "<group>"; };
+		73EAFD6629423D5A003D162B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73EAFD6829423D5C003D162B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73EAFD6B29423D5C003D162B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73EAFD7129423D5C003D162B /* Sweater-ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweater-ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EAFD7529423D5C003D162B /* Sweater_ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopTests.swift; sourceTree = "<group>"; };
+		73EAFD7B29423D5C003D162B /* Sweater-ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweater-ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EAFD7F29423D5C003D162B /* Sweater_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopUITests.swift; sourceTree = "<group>"; };
+		73EAFD8129423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EAFD5E29423D5A003D162B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD6E29423D5C003D162B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD7829423D5C003D162B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73EAFD5829423D5A003D162B = {
+			isa = PBXGroup;
+			children = (
+				73EAFD6329423D5A003D162B /* Sweater-Shop */,
+				73EAFD7429423D5C003D162B /* Sweater-ShopTests */,
+				73EAFD7E29423D5C003D162B /* Sweater-ShopUITests */,
+				73EAFD6229423D5A003D162B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73EAFD6229423D5A003D162B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EAFD6129423D5A003D162B /* Sweater-Shop.app */,
+				73EAFD7129423D5C003D162B /* Sweater-ShopTests.xctest */,
+				73EAFD7B29423D5C003D162B /* Sweater-ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73EAFD6329423D5A003D162B /* Sweater-Shop */ = {
+			isa = PBXGroup;
+			children = (
+				73EAFD6429423D5A003D162B /* Sweater_ShopApp.swift */,
+				73EAFD6629423D5A003D162B /* ContentView.swift */,
+				73EAFD6829423D5C003D162B /* Assets.xcassets */,
+				73EAFD6A29423D5C003D162B /* Preview Content */,
+			);
+			path = "Sweater-Shop";
+			sourceTree = "<group>";
+		};
+		73EAFD6A29423D5C003D162B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73EAFD6B29423D5C003D162B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73EAFD7429423D5C003D162B /* Sweater-ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				73EAFD7529423D5C003D162B /* Sweater_ShopTests.swift */,
+			);
+			path = "Sweater-ShopTests";
+			sourceTree = "<group>";
+		};
+		73EAFD7E29423D5C003D162B /* Sweater-ShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73EAFD7F29423D5C003D162B /* Sweater_ShopUITests.swift */,
+				73EAFD8129423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift */,
+			);
+			path = "Sweater-ShopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73EAFD6029423D5A003D162B /* Sweater-Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EAFD8529423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-Shop" */;
+			buildPhases = (
+				73EAFD5D29423D5A003D162B /* Sources */,
+				73EAFD5E29423D5A003D162B /* Frameworks */,
+				73EAFD5F29423D5A003D162B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sweater-Shop";
+			productName = "Sweater-Shop";
+			productReference = 73EAFD6129423D5A003D162B /* Sweater-Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73EAFD7029423D5C003D162B /* Sweater-ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EAFD8829423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-ShopTests" */;
+			buildPhases = (
+				73EAFD6D29423D5C003D162B /* Sources */,
+				73EAFD6E29423D5C003D162B /* Frameworks */,
+				73EAFD6F29423D5C003D162B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EAFD7329423D5C003D162B /* PBXTargetDependency */,
+			);
+			name = "Sweater-ShopTests";
+			productName = "Sweater-ShopTests";
+			productReference = 73EAFD7129423D5C003D162B /* Sweater-ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73EAFD7A29423D5C003D162B /* Sweater-ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EAFD8B29423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-ShopUITests" */;
+			buildPhases = (
+				73EAFD7729423D5C003D162B /* Sources */,
+				73EAFD7829423D5C003D162B /* Frameworks */,
+				73EAFD7929423D5C003D162B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EAFD7D29423D5C003D162B /* PBXTargetDependency */,
+			);
+			name = "Sweater-ShopUITests";
+			productName = "Sweater-ShopUITests";
+			productReference = 73EAFD7B29423D5C003D162B /* Sweater-ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73EAFD5929423D5A003D162B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					73EAFD6029423D5A003D162B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					73EAFD7029423D5C003D162B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 73EAFD6029423D5A003D162B;
+					};
+					73EAFD7A29423D5C003D162B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 73EAFD6029423D5A003D162B;
+					};
+				};
+			};
+			buildConfigurationList = 73EAFD5C29423D5A003D162B /* Build configuration list for PBXProject "Sweater-Shop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73EAFD5829423D5A003D162B;
+			productRefGroup = 73EAFD6229423D5A003D162B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EAFD6029423D5A003D162B /* Sweater-Shop */,
+				73EAFD7029423D5C003D162B /* Sweater-ShopTests */,
+				73EAFD7A29423D5C003D162B /* Sweater-ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73EAFD5F29423D5A003D162B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EAFD6C29423D5C003D162B /* Preview Assets.xcassets in Resources */,
+				73EAFD6929423D5C003D162B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD6F29423D5C003D162B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD7929423D5C003D162B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73EAFD5D29423D5A003D162B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EAFD6729423D5A003D162B /* ContentView.swift in Sources */,
+				73EAFD6529423D5A003D162B /* Sweater_ShopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD6D29423D5C003D162B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EAFD7629423D5C003D162B /* Sweater_ShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EAFD7729423D5C003D162B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EAFD8229423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift in Sources */,
+				73EAFD8029423D5C003D162B /* Sweater_ShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73EAFD7329423D5C003D162B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EAFD6029423D5A003D162B /* Sweater-Shop */;
+			targetProxy = 73EAFD7229423D5C003D162B /* PBXContainerItemProxy */;
+		};
+		73EAFD7D29423D5C003D162B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EAFD6029423D5A003D162B /* Sweater-Shop */;
+			targetProxy = 73EAFD7C29423D5C003D162B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73EAFD8329423D5C003D162B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73EAFD8429423D5C003D162B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EAFD8629423D5C003D162B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sweater-Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73EAFD8729423D5C003D162B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sweater-Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73EAFD8929423D5C003D162B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweater-Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweater-Shop";
+			};
+			name = Debug;
+		};
+		73EAFD8A29423D5C003D162B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweater-Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweater-Shop";
+			};
+			name = Release;
+		};
+		73EAFD8C29423D5C003D162B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweater-Shop";
+			};
+			name = Debug;
+		};
+		73EAFD8D29423D5C003D162B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamany.Sweater-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweater-Shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73EAFD5C29423D5A003D162B /* Build configuration list for PBXProject "Sweater-Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EAFD8329423D5C003D162B /* Debug */,
+				73EAFD8429423D5C003D162B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EAFD8529423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EAFD8629423D5C003D162B /* Debug */,
+				73EAFD8729423D5C003D162B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EAFD8829423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EAFD8929423D5C003D162B /* Debug */,
+				73EAFD8A29423D5C003D162B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EAFD8B29423D5C003D162B /* Build configuration list for PBXNativeTarget "Sweater-ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EAFD8C29423D5C003D162B /* Debug */,
+				73EAFD8D29423D5C003D162B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73EAFD5929423D5A003D162B /* Project object */;
+}
