@@ -15,7 +15,7 @@ struct Cart: View {
         ZStack(alignment: .topTrailing){
             Image(systemName: "cart")
                 .padding(7)
-//                .font()
+
             if numberOfProducts != 0{
                 Text(numberOfProducts.formatted())
                     .font(.subheadline)

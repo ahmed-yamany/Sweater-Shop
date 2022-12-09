@@ -24,7 +24,8 @@ struct ContentView: View {
             }
             .toolbar(content: {
                 NavigationLink {
-                    
+                    CartView()
+                        .environmentObject(cartManager)
                 } label: {
                     Cart(numberOfProducts: cartManager.products.count)
                         .environmentObject(cartManager)
