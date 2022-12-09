@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ProductView: View {
+    @EnvironmentObject var cartManager: CartManager
+    
     let product: Product
     var body: some View {
         ZStack (alignment: .topTrailing) {
             ZStack(alignment: .bottom){
                 Image(product.image)
                     .resizable()
-                    .cornerRadius(20)
                     .frame(width: 180)
+                    .cornerRadius(20)
                     .scaledToFit()
                 
                 VStack(alignment: .leading){
@@ -31,8 +33,9 @@ struct ProductView: View {
 
             }
             .frame(width: 180, height: 250)
-            
+
             Button {
+                cartManager.addToCart(product: product)
                 
             } label: {
                 Image(systemName: "plus")
@@ -41,7 +44,6 @@ struct ProductView: View {
                     .foregroundColor(.white)
                     .mask(Circle())
                     .padding()
-                 
             }
 
         }

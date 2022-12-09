@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73C135D3294352AF0063DB76 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C135D2294352AE0063DB76 /* CartManager.swift */; };
 		73EAFD6529423D5A003D162B /* Sweater_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD6429423D5A003D162B /* Sweater_ShopApp.swift */; };
 		73EAFD6729423D5A003D162B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD6629423D5A003D162B /* ContentView.swift */; };
 		73EAFD6929423D5C003D162B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EAFD6829423D5C003D162B /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		73EAFD8229423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD8129423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift */; };
 		73EAFD9029423E8A003D162B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD8F29423E8A003D162B /* Product.swift */; };
 		73EAFD9329423F93003D162B /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EAFD9229423F93003D162B /* ProductView.swift */; };
+		73FDB8EB2943504400A1D497 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FDB8EA2943504400A1D497 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73C135D2294352AE0063DB76 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		73EAFD6129423D5A003D162B /* Sweater-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweater-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EAFD6429423D5A003D162B /* Sweater_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopApp.swift; sourceTree = "<group>"; };
 		73EAFD6629423D5A003D162B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		73EAFD8129423D5C003D162B /* Sweater_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweater_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		73EAFD8F29423E8A003D162B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		73EAFD9229423F93003D162B /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		73FDB8EA2943504400A1D497 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				73EAFD8E29423E56003D162B /* Models */,
 				73EAFD6829423D5C003D162B /* Assets.xcassets */,
 				73EAFD6A29423D5C003D162B /* Preview Content */,
+				73C135D2294352AE0063DB76 /* CartManager.swift */,
 			);
 			path = "Sweater-Shop";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				73EAFD9229423F93003D162B /* ProductView.swift */,
+				73FDB8EA2943504400A1D497 /* Cart.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -280,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73EAFD9329423F93003D162B /* ProductView.swift in Sources */,
+				73C135D3294352AF0063DB76 /* CartManager.swift in Sources */,
 				73EAFD6729423D5A003D162B /* ContentView.swift in Sources */,
+				73FDB8EB2943504400A1D497 /* Cart.swift in Sources */,
 				73EAFD6529423D5A003D162B /* Sweater_ShopApp.swift in Sources */,
 				73EAFD9029423E8A003D162B /* Product.swift in Sources */,
 			);
